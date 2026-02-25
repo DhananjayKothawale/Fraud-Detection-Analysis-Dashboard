@@ -15,48 +15,44 @@ How can an organization:
 - Identify high-risk cities, merchant categories, and transactions?
 - Enable analysts and managers to take data-driven actions?
 
----
----
-## 🧭 Project Approach (End-to-End Flow)
-Business Problem
-    ↓
-Synthetic Data Generation (Python)
-    ↓
-Exploratory Data Analysis (Python – Jupyter)
-    ↓
-Data Storage & Modeling (MySQL)
-    ↓
-Business Queries & KPIs (SQL)
-    ↓
-Interactive Dashboard (Power BI + DAX)
-    ↓
-Insights & Decision Support
----
+---## 🧭 Project Approach (End-to-End Flow)
 
+Business Problem  
+↓  
+Synthetic Data Generation (Python)  
+↓  
+Exploratory Data Analysis (Python – Jupyter)  
+↓  
+Data Storage & Modeling (MySQL)  
+↓  
+Business Queries & KPIs (SQL)  
+↓  
+Interactive Dashboard (Power BI + DAX)  
+↓  
+Insights & Decision Support  
 
 ---
 
 ## 🗂️ Project Structure
+
 fraud-detection-analysis/
 │
 ├── data/
-│ └── fraud_transactions.csv
+│   └── fraud_transactions.csv
 │
 ├── python/
-│ ├── 01_data_generation.py
-│ └── 02_eda_analysis.ipynb
+│   ├── 01_data_generation.py
+│   └── 02_eda_analysis.ipynb
 │
 ├── sql/
-│ ├── 01_schema.sql
-│ ├── 02_data_load.sql
-│ └── 03_analysis_queries.sql
+│   ├── 01_schema.sql
+│   ├── 02_data_load.sql
+│   └── 03_analysis_queries.sql
 │
 ├── powerbi/
-│ └── fraud_detection_dashboard.pbix
+│   └── fraud_detection_dashboard.pbix
 │
 └── README.md
----
-
 ---
 
 ## 🧪 Step 1: Data Generation (Python)
