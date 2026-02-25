@@ -15,7 +15,7 @@ How can an organization:
 - Identify high-risk cities, merchant categories, and transactions?
 - Enable analysts and managers to take data-driven actions?
 
----## 🧭 Project Approach (End-to-End Flow)
+## 🧭 Project Approach (End-to-End Flow)
 
 Business Problem  
 ↓  
@@ -36,7 +36,6 @@ Insights & Decision Support
 ## 🗂️ Project Structure
 
 fraud-detection-analysis/
-│
 ├── data/
 │   └── fraud_transactions.csv
 │
