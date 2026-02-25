@@ -33,27 +33,6 @@ Insights & Decision Support
 
 ---
 
-## 🗂️ Project Structure
-
-fraud-detection-analysis/
-├── data/
-│   └── fraud_transactions.csv
-│
-├── python/
-│   ├── 01_data_generation.py
-│   └── 02_eda_analysis.ipynb
-│
-├── sql/
-│   ├── 01_schema.sql
-│   ├── 02_data_load.sql
-│   └── 03_analysis_queries.sql
-│
-├── powerbi/
-│   └── fraud_detection_dashboard.pbix
-│
-└── README.md
----
-
 ## 🧪 Step 1: Data Generation (Python)
 - Generated a **synthetic transaction dataset** (~450 records).
 - Included realistic attributes such as:
